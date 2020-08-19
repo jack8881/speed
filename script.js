@@ -11,7 +11,7 @@ oProgress.innerHTML = actualHTML;
 
 //
 function InitiateSpeedDetection() {
-ShowProgressMessage("please wait...");
+ShowProgressMessage("Your Internet Speed is...");
 window.setTimeout(MeasureConnectionSpeed, 1);
 }; 
 if (window.addEventListener) {
